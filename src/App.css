@@ -1,0 +1,196 @@
+
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.Apps{
+  
+  min-height: 100vh;
+
+
+    
+  font-size: calc(10px + 2vmin);
+  background-color: rgb(247, 252, 250);
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.page{
+  padding: 15px;
+  display: block;
+}
+
+.link{
+  padding: 10px 12px;
+  color:#282c34;
+}
+.link:link{
+  text-decoration: none;
+}
+.link:hover{
+  background-color: rgb(138, 231, 231);
+  border-radius: 3px;
+  font-weight:500;
+}
+
+.nav{
+  display: flex;
+  flex-direction: row;
+  margin: 10px 0 ;
+  border: 1px solid rgb(0, 17, 128);
+  background-color: azure;
+
+ 
+  
+}
+
+
+#home{
+  background-color:bisque;
+  height: 100%;
+}
+#apple{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  margin:50px auto;
+  padding: 15px;
+  border: 1px solid teal;
+  border-radius: 2px;
+  gap: 18px;
+  width: 400px;
+  height: 75%;
+}
+.label{
+  padding: 10px;
+  margin: auto;
+  border: 2px;
+}
+.img{
+  height: 12px;
+  margin: 0 5px ;
+}
+
+.form{
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  gap: 15px;
+  margin: auto;
+}
+
+#bookList{
+  display: flex;
+  flex-direction: column;
+  padding: 12px;
+  justify-content: space-between;
+}
+
+.headWrapper{
+
+  display: flex;
+  justify-content:flex-end;
+  border: 1px solid black;
+  border-radius: 2px;
+  height: 65px;
+  width: 100%;
+  background-color:aquamarine;
+
+  padding-top: 5px;
+  
+}
+
+
+
+.mainWrapper{
+
+  border-radius: 2px;
+  height: 100%;
+  width: 100%;
+  background-color:white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+
+ 
+  .product-list-inner-wrapper {
+    border: 5px solid turquoise;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: 0 -15x -30px;
+    @media (max-width: 1199px) {
+      margin: 0 10px 30px; 
+    }
+  }
+
+  .product-list {
+
+          border: 1px solid black;
+          background-color: wheat;
+          opacity: 0.90;
+          border-radius: 5px;
+          max-width: 25%;
+          flex: 0 0 20%;
+          padding: 0 15px;
+          height: 40%;
+          @media (max-width: 1199px) {
+            padding: "0 10px";
+          } 
+        }
+ .image {
+          width: 50%;
+          background-position: center;
+          background-repeat: no-repeat;
+          background-size: cover;
+        }
+
+         em {
+          display: block;
+          position: relative;
+          padding-bottom: 50%;
+          border-radius: 10px 10px 0 0;
+          @media (max-width: 479px) {
+            paddingBottom: "66%";
+          };
+           img {
+            position: absolute;
+            height: 100%;
+            width: 100%;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            border-radius: 10px 10px 0 0;
+            object-fit: cover;
+          };
+        }
+
+         .content-wrapper {
+          padding: 20px 15px;
+         
+        }
+
+    
